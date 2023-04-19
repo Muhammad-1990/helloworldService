@@ -48,4 +48,4 @@ jobs:
         app-name: 'momowebapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_2b1848251b4d4ddf9ceb07ed2fa51086 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_0e03c0b895104ed2af5276d6b30ba836 }}/momo90/helloworldservice:${{ github.sha }}'
+        images: 'momo90/helloworldservice:${{ github.sha }}'
