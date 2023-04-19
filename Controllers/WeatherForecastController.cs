@@ -19,6 +19,6 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public string Get()
     {
-        return "hello, " + Summaries[Random.Shared.Next(Summaries.Length)];
+        return "hello world, today's weather is " + Summaries[Random.Shared.Next(Summaries.Length)];
     }
 }
